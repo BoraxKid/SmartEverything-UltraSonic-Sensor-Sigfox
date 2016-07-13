@@ -34,3 +34,5 @@ OK
 ```
 The dots are printed while the message is being processed.
 When `OK` is printed, your message has been sent to Sigfox, else `KO` will be printed.
+
+The message sent is either `0` or `1`, as ASCII char, so 30 or 31 if converted to hex.
